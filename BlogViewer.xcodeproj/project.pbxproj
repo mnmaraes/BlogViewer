@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0DB050CCC18542ABA67EEDCA /* libPods-BlogViewerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7E5564CE8442AC974A5D2D /* libPods-BlogViewerTests.a */; };
+		EB30A86B190C848A0024D92D /* BVMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB30A86A190C848A0024D92D /* BVMainViewController.m */; };
+		EB30A873190CA21B0024D92D /* BVPost.m in Sources */ = {isa = PBXBuildFile; fileRef = EB30A872190CA21B0024D92D /* BVPost.m */; };
+		EB30A876190CA2E80024D92D /* BVPostContent.m in Sources */ = {isa = PBXBuildFile; fileRef = EB30A875190CA2E80024D92D /* BVPostContent.m */; };
+		EB30A879190CA3160024D92D /* BVParagraphPostContent.m in Sources */ = {isa = PBXBuildFile; fileRef = EB30A878190CA3160024D92D /* BVParagraphPostContent.m */; };
+		EB30A87C190CA3220024D92D /* BVImagePostContent.m in Sources */ = {isa = PBXBuildFile; fileRef = EB30A87B190CA3220024D92D /* BVImagePostContent.m */; };
+		EB3620C4190E9FC1007201CD /* BVPostSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3620C3190E9FC1007201CD /* BVPostSpec.m */; };
+		EB3620CD190EAEF5007201CD /* BVParagraphPostContent.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3620CC190EAEF5007201CD /* BVParagraphPostContent.m */; };
+		EB3620CF190EB0AD007201CD /* BVPostControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3620CE190EB0AD007201CD /* BVPostControllerSpec.m */; };
+		EB3620D2190EB1C1007201CD /* BVPostController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3620D1190EB1C1007201CD /* BVPostController.m */; };
 		EBD43DB2190AF8E6007FD485 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD43DB1190AF8E6007FD485 /* Foundation.framework */; };
 		EBD43DB4190AF8E6007FD485 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD43DB3190AF8E6007FD485 /* CoreGraphics.framework */; };
 		EBD43DB6190AF8E6007FD485 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD43DB5190AF8E6007FD485 /* UIKit.framework */; };
@@ -19,10 +28,11 @@
 		EBD43DCC190AF8E7007FD485 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD43DB1190AF8E6007FD485 /* Foundation.framework */; };
 		EBD43DCD190AF8E7007FD485 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD43DB5190AF8E6007FD485 /* UIKit.framework */; };
 		EBD43DD5190AF8E7007FD485 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBD43DD3190AF8E7007FD485 /* InfoPlist.strings */; };
-		EBD43DE2190B03BA007FD485 /* BVUIView_LayoutDefSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD43DE1190B03BA007FD485 /* BVUIView_LayoutDefSpec.m */; };
-		EBD43DE7190B0DD7007FD485 /* UIView+LayoutDef.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD43DE6190B0DD7007FD485 /* UIView+LayoutDef.m */; };
-		EBD43DEB190B0EF6007FD485 /* LayoutDef.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD43DEA190B0EF6007FD485 /* LayoutDef.m */; };
 		EBD43DED190B2280007FD485 /* libobjc.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD43DEC190B2280007FD485 /* libobjc.A.dylib */; };
+		EBD8E2B219105BE10056F682 /* BVPostViewModelSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD8E2B119105BE10056F682 /* BVPostViewModelSpec.m */; };
+		EBD8E2B519105CAA0056F682 /* BVPostViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD8E2B419105CAA0056F682 /* BVPostViewModel.m */; };
+		EBD8E2B8191077300056F682 /* BVParagraphViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD8E2B7191077300056F682 /* BVParagraphViewModel.m */; };
+		EBD8E2BA191077AB0056F682 /* BVParagraphViewModelSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD8E2B9191077AB0056F682 /* BVParagraphViewModelSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +48,21 @@
 /* Begin PBXFileReference section */
 		26295E3E1C8B4400848F666B /* Pods-BlogViewerTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogViewerTests.xcconfig"; path = "Pods/Pods-BlogViewerTests.xcconfig"; sourceTree = "<group>"; };
 		5C7E5564CE8442AC974A5D2D /* libPods-BlogViewerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlogViewerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB30A869190C848A0024D92D /* BVMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVMainViewController.h; sourceTree = "<group>"; };
+		EB30A86A190C848A0024D92D /* BVMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVMainViewController.m; sourceTree = "<group>"; };
+		EB30A871190CA21B0024D92D /* BVPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVPost.h; sourceTree = "<group>"; };
+		EB30A872190CA21B0024D92D /* BVPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVPost.m; sourceTree = "<group>"; };
+		EB30A874190CA2E80024D92D /* BVPostContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVPostContent.h; sourceTree = "<group>"; };
+		EB30A875190CA2E80024D92D /* BVPostContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVPostContent.m; sourceTree = "<group>"; };
+		EB30A877190CA3160024D92D /* BVParagraphPostContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVParagraphPostContent.h; sourceTree = "<group>"; };
+		EB30A878190CA3160024D92D /* BVParagraphPostContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVParagraphPostContent.m; sourceTree = "<group>"; };
+		EB30A87A190CA3220024D92D /* BVImagePostContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVImagePostContent.h; sourceTree = "<group>"; };
+		EB30A87B190CA3220024D92D /* BVImagePostContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVImagePostContent.m; sourceTree = "<group>"; };
+		EB3620C3190E9FC1007201CD /* BVPostSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVPostSpec.m; sourceTree = "<group>"; };
+		EB3620CC190EAEF5007201CD /* BVParagraphPostContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVParagraphPostContent.m; sourceTree = "<group>"; };
+		EB3620CE190EB0AD007201CD /* BVPostControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVPostControllerSpec.m; sourceTree = "<group>"; };
+		EB3620D0190EB1C1007201CD /* BVPostController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVPostController.h; sourceTree = "<group>"; };
+		EB3620D1190EB1C1007201CD /* BVPostController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVPostController.m; sourceTree = "<group>"; };
 		EBD43DAE190AF8E6007FD485 /* BlogViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD43DB1190AF8E6007FD485 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EBD43DB3190AF8E6007FD485 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,12 +78,13 @@
 		EBD43DCA190AF8E7007FD485 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EBD43DD2190AF8E7007FD485 /* BlogViewerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlogViewerTests-Info.plist"; sourceTree = "<group>"; };
 		EBD43DD4190AF8E7007FD485 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EBD43DE1190B03BA007FD485 /* BVUIView_LayoutDefSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVUIView_LayoutDefSpec.m; sourceTree = "<group>"; };
-		EBD43DE5190B0DD7007FD485 /* UIView+LayoutDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutDef.h"; sourceTree = "<group>"; };
-		EBD43DE6190B0DD7007FD485 /* UIView+LayoutDef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutDef.m"; sourceTree = "<group>"; };
-		EBD43DE9190B0EF6007FD485 /* LayoutDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutDef.h; sourceTree = "<group>"; };
-		EBD43DEA190B0EF6007FD485 /* LayoutDef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutDef.m; sourceTree = "<group>"; };
 		EBD43DEC190B2280007FD485 /* libobjc.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libobjc.A.dylib; path = usr/lib/libobjc.A.dylib; sourceTree = SDKROOT; };
+		EBD8E2B119105BE10056F682 /* BVPostViewModelSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVPostViewModelSpec.m; sourceTree = "<group>"; };
+		EBD8E2B319105CAA0056F682 /* BVPostViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVPostViewModel.h; sourceTree = "<group>"; };
+		EBD8E2B419105CAA0056F682 /* BVPostViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVPostViewModel.m; sourceTree = "<group>"; };
+		EBD8E2B6191077300056F682 /* BVParagraphViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVParagraphViewModel.h; sourceTree = "<group>"; };
+		EBD8E2B7191077300056F682 /* BVParagraphViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVParagraphViewModel.m; sourceTree = "<group>"; };
+		EBD8E2B9191077AB0056F682 /* BVParagraphViewModelSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVParagraphViewModelSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +113,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB30A86C190CA1DA0024D92D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB30A871190CA21B0024D92D /* BVPost.h */,
+				EB30A872190CA21B0024D92D /* BVPost.m */,
+				EB30A87A190CA3220024D92D /* BVImagePostContent.h */,
+				EB30A87B190CA3220024D92D /* BVImagePostContent.m */,
+				EB30A874190CA2E80024D92D /* BVPostContent.h */,
+				EB30A875190CA2E80024D92D /* BVPostContent.m */,
+				EB30A877190CA3160024D92D /* BVParagraphPostContent.h */,
+				EB30A878190CA3160024D92D /* BVParagraphPostContent.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB30A86D190CA1E10024D92D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB30A86E190CA1E50024D92D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EB3620D0190EB1C1007201CD /* BVPostController.h */,
+				EB3620D1190EB1C1007201CD /* BVPostController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EB30A870190CA1FC0024D92D /* Store */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		EB3620C2190E9FA2007201CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB3620CC190EAEF5007201CD /* BVParagraphPostContent.m */,
+				EB3620C3190E9FC1007201CD /* BVPostSpec.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB3620C5190EA297007201CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB3620C6190EA29D007201CD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EB3620CE190EB0AD007201CD /* BVPostControllerSpec.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EB3620C8190EA2A7007201CD /* Store */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
 		EBD43DA5190AF8E6007FD485 = {
 			isa = PBXGroup;
 			children = (
@@ -123,11 +218,17 @@
 		EBD43DB7190AF8E6007FD485 /* BlogViewer */ = {
 			isa = PBXGroup;
 			children = (
-				EBD43DE3190B0D79007FD485 /* View */,
+				EB30A86C190CA1DA0024D92D /* Model */,
+				EB30A86D190CA1E10024D92D /* View */,
+				EB30A86E190CA1E50024D92D /* Controller */,
+				EBD8E2AE19105B620056F682 /* ViewModel */,
+				EB30A870190CA1FC0024D92D /* Store */,
 				EBD43DC0190AF8E6007FD485 /* BVAppDelegate.h */,
 				EBD43DC1190AF8E6007FD485 /* BVAppDelegate.m */,
 				EBD43DC3190AF8E7007FD485 /* Images.xcassets */,
 				EBD43DB8190AF8E6007FD485 /* Supporting Files */,
+				EB30A869190C848A0024D92D /* BVMainViewController.h */,
+				EB30A86A190C848A0024D92D /* BVMainViewController.m */,
 			);
 			path = BlogViewer;
 			sourceTree = "<group>";
@@ -146,7 +247,11 @@
 		EBD43DD0190AF8E7007FD485 /* BlogViewerTests */ = {
 			isa = PBXGroup;
 			children = (
-				EBD43DE0190B0349007FD485 /* View */,
+				EB3620C2190E9FA2007201CD /* Model */,
+				EB3620C5190EA297007201CD /* View */,
+				EB3620C6190EA29D007201CD /* Controller */,
+				EBD8E2AF19105B680056F682 /* ViewModel */,
+				EB3620C8190EA2A7007201CD /* Store */,
 				EBD43DD1190AF8E7007FD485 /* Supporting Files */,
 			);
 			path = BlogViewerTests;
@@ -161,39 +266,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EBD43DE0190B0349007FD485 /* View */ = {
+		EBD8E2AE19105B620056F682 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				EBD43DE1190B03BA007FD485 /* BVUIView_LayoutDefSpec.m */,
+				EBD8E2B6191077300056F682 /* BVParagraphViewModel.h */,
+				EBD8E2B7191077300056F682 /* BVParagraphViewModel.m */,
+				EBD8E2B319105CAA0056F682 /* BVPostViewModel.h */,
+				EBD8E2B419105CAA0056F682 /* BVPostViewModel.m */,
 			);
-			name = View;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		EBD43DE3190B0D79007FD485 /* View */ = {
+		EBD8E2AF19105B680056F682 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				EBD43DE8190B0EBE007FD485 /* Layout */,
-				EBD43DE4190B0D92007FD485 /* Categories */,
+				EBD8E2B9191077AB0056F682 /* BVParagraphViewModelSpec.m */,
+				EBD8E2B119105BE10056F682 /* BVPostViewModelSpec.m */,
 			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		EBD43DE4190B0D92007FD485 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				EBD43DE5190B0DD7007FD485 /* UIView+LayoutDef.h */,
-				EBD43DE6190B0DD7007FD485 /* UIView+LayoutDef.m */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		EBD43DE8190B0EBE007FD485 /* Layout */ = {
-			isa = PBXGroup;
-			children = (
-				EBD43DE9190B0EF6007FD485 /* LayoutDef.h */,
-				EBD43DEA190B0EF6007FD485 /* LayoutDef.m */,
-			);
-			path = Layout;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,10 +417,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB30A87C190CA3220024D92D /* BVImagePostContent.m in Sources */,
+				EB30A876190CA2E80024D92D /* BVPostContent.m in Sources */,
 				EBD43DC2190AF8E6007FD485 /* BVAppDelegate.m in Sources */,
-				EBD43DE7190B0DD7007FD485 /* UIView+LayoutDef.m in Sources */,
+				EB30A879190CA3160024D92D /* BVParagraphPostContent.m in Sources */,
+				EB30A873190CA21B0024D92D /* BVPost.m in Sources */,
 				EBD43DBE190AF8E6007FD485 /* main.m in Sources */,
-				EBD43DEB190B0EF6007FD485 /* LayoutDef.m in Sources */,
+				EB30A86B190C848A0024D92D /* BVMainViewController.m in Sources */,
+				EBD8E2B519105CAA0056F682 /* BVPostViewModel.m in Sources */,
+				EB3620D2190EB1C1007201CD /* BVPostController.m in Sources */,
+				EBD8E2B8191077300056F682 /* BVParagraphViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +434,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBD43DE2190B03BA007FD485 /* BVUIView_LayoutDefSpec.m in Sources */,
+				EB3620CD190EAEF5007201CD /* BVParagraphPostContent.m in Sources */,
+				EBD8E2BA191077AB0056F682 /* BVParagraphViewModelSpec.m in Sources */,
+				EB3620C4190E9FC1007201CD /* BVPostSpec.m in Sources */,
+				EBD8E2B219105BE10056F682 /* BVPostViewModelSpec.m in Sources */,
+				EB3620CF190EB0AD007201CD /* BVPostControllerSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

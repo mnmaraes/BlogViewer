@@ -8,6 +8,8 @@
 
 #import "BVAppDelegate.h"
 
+#import "BVMainViewController.h"
+
 @implementation BVAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -15,6 +17,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [BVMainViewController new];
     [self.window makeKeyAndVisible];
     return YES;
 }
